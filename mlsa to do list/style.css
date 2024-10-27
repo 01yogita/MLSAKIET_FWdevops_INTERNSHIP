@@ -1,0 +1,35 @@
+.todo-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#task-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
